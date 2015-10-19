@@ -43,5 +43,3 @@ init $clonedir
 update_and_commit $clonedir $VERSION $build $version $BUILD_TEMPLATE $BUILD_FILE
 
 push $clonedir $HOOK_URL
-
-exit 0
