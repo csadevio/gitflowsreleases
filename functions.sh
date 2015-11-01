@@ -51,6 +51,7 @@ function init
 	run git config --add gitflow.prefix.support support/
 	run git config --add gitflow.prefix.versiontag v
 	run git config --add gitflow.path.hooks $1/.git/hooks
+	run git checkout master
 	run git flow init -d -f
 }
 
