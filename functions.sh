@@ -34,7 +34,7 @@ function download
 	# 2 = Git repo url
 	# 3 = target dir
 	run cd $1
-	run git clone $2 $3
+	run git clone $2 $3 -qv
 }
 
 function init
