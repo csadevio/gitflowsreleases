@@ -4,4 +4,6 @@
 
 ## Todo
 
+* Docker image
 * Do some clean up in the scripts :-)
+* Create a golang clone
